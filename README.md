@@ -23,6 +23,7 @@
 |박세원 |[sw-develop](https://github.com/sw-develop) | 개인사정으로 불참|
 
 ## 과제 내용
+
 <details>
 <summary>과제내용 보기</summary>
 <div markdown="1">
