@@ -6,6 +6,13 @@
     - [디어 사이트](https://web.deering.co/)
     - [wanted 채용공고 링크](https://www.wanted.co.kr/wd/59051)
 
+## 과제 후기
+- https://velog.io/@burnkim61/프리온보딩-과제-6
+
+## 팀 Repository
+- https://github.com/Wanted-Preonboarding-Backend-1st-G5/Assignment6
+
+
 ## Members
 | 이름 | github                                    | 담당 기능      |
 |-----|--------------------------------------------|------------ |
@@ -103,6 +110,9 @@ forbidden_area_coords (반납금지구역의 경계를 표시하는 위도, 경�
 ## 구현 기능
 - 기본 기능인 퀵보드 대여 및 반납 기능만 구현하였고, 추가기능인 할인, 패널티 적용은 구현하지 못하였습니다.
 
+### 퀵보드 List 출력 - 🙋‍♂️ 담당기능
+- limit, offset pagination을 적용하였고, Query String이 입력되지 않아도, limit가 기본적으로 20으로 적용되도록 하였습니다.
+
 ### 퀵보드 대여
 - 대여와 반납은 기본적으로 BoardingLog 로그성 데이터이자,   
   유저와 Deer의 관계성 테이블로 데이터를 관리하도록 하였습니다.
@@ -116,8 +126,6 @@ forbidden_area_coords (반납금지구역의 경계를 표시하는 위도, 경�
 - 퀵보드 반납 시 반납가능한 상태가 아니면 에러를 반환합니다.
 - 지역별 기본요금과 분별 추가요금을 지정하여 이용시간을 기반으로 이용요금을 계산합니다.
 
-### 퀵보드 List 출력
-- limit, offset pagination을 적용하였고, Query String이 입력되지 않아도, limit가 기본적으로 20으로 적용되도록 하였습니다.
 
 ## 배포정보
 |구분   |  정보          |비고|
@@ -255,14 +263,6 @@ forbidden_area_coords (반납금지구역의 경계를 표시하는 위도, 경�
  ┣ 📜 pull_request_template.md
  ┗ 📜 requirements.txt
 ```
-
-
-## TIL정리 (Blog)
-- 김태우 : https://velog.io/@burnkim61/프리온보딩-과제-6
-- 고유영 :
-- 박지원 : 
-- 최신혁 :
-- 박세원 :
 
 # Reference
 이 프로젝트는 원티드x위코드 백엔드 프리온보딩 과제 일환으로 디어코퍼레이션에서 출제한 과제를 기반으로 만들었습니다.
